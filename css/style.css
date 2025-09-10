@@ -1,4 +1,4 @@
-h1{
+/* h1{
   border-color: #d3e644;
   border-style: dashed;
 }
@@ -26,4 +26,31 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
   background-color: #e9e9e9;
+} */
+body {
+  max-width: 800px;
+  margin: 0 auto;
 }
+
+.sender-column {
+  text-align: right;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+p,ul,ol,dl,address {
+  font-size: 1.1em;
+}
+
+p, li, dd, dt, address {
+  line-height: 1.5;
+}
+
+/*I dont know if i was supposed to change this file css or not, or just move the css into the html
+file, but i moved it here as well. We shall see*/
